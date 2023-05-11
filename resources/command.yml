@@ -1,0 +1,20 @@
+setbc:
+  - setbc
+seebc:
+  - seebc
+mybc:
+  - mybc
+paybc:
+  - paybc
+givebc:
+  - givebc
+topbc:
+  - topbc
+setlangbc:
+  - setlangbc
+takebc:
+  - takebc
+mystatusbc:
+  - mystatusbc
+bitcoin:
+  - bitcoin

@@ -1,0 +1,47 @@
+---
+name: BitcoinAPI
+main: UnknownNull\BitcoinAPI\BitcoinAPI
+api: 4.0.0
+version: 0.0.1
+author: UnknownNull
+depend:
+  - EconomyAPI
+
+permissions:
+  bitcoinapi.*:
+    default: op
+    description: Allows to control all of functions in bitcoinapi
+  bitcoinapi.command.*:
+    default: op
+    description: Allows to use all of commands in bitcoinapi
+  bitcoinapi.command.setBitcoin:
+    default: op
+    description: Allows to set player's Bitcoin
+  bitcoinapi.command.myBitcoin:
+    description: Allows player to see his/her Bitcoin
+    default: true
+  bitcoinapi.command.giveBitcoin:
+    description: Allows player to give Bitcoin to others
+    default: op
+  bitcoinapi.command.payBitcoin:
+    description: Allows player to pay to someone
+    default: true
+  bitcoinapi.command.seeBitcoin:
+    description: Allows player to see others' Bitcoin
+    default: true
+  bitcoinapi.command.setlangBitcoin:
+    description: Allows player to set his/her language
+    default: op
+  bitcoinapi.command.topBitcoin:
+    description: Allows player to see top Bitcoin list
+    default: true
+  bitcoinapi.command.mystatusBitcoin:
+    description: Allows player to see his/her financial status
+    default: op
+  bitcoinapi.command.takeBitcoin:
+    description: Allows player to take Bitcoin from others
+    default: op
+  bitcoinapi.command.menu:
+    description: open menu Bitcoin
+    default: true
+...

@@ -1,0 +1,71 @@
+{
+    "language": "eng",
+    "commands": {
+        "mybc": {
+            "usage": "/mybc",
+            "description": "my bitcoin"
+        },
+        "topbc": {
+            "usage": "/topbc [page]",
+            "description": "top bitcoin"
+        },
+        "setbc": {
+            "usage": "/setbc <player> <amount>",
+            "description": "Set Bitcoin"
+        },
+        "seebc": {
+            "usage": "/seebc <player>",
+            "description": "View the number of bitcoins"
+        },
+        "givebc": {
+            "usage": "/givebc <player> <amount>",
+            "description": "give bitcoin"
+        },
+        "takebc": {
+            "usage": "/takebc <player> <amount>",
+            "description": "take bitcoin"
+        },
+        "paybc": {
+            "usage": "/paybc <player> <amount>",
+            "description": "pay bitcoin"
+        },
+        "setlangbc": {
+            "usage": "/setlangbc <language>",
+            "description": "set lang bitcoin"
+        },
+        "mystatusbc": {
+            "usage": "/mystatusbc",
+            "description": "my status bitcoin"
+        },
+        "bitcoin": {
+            "usage": "/bitbc",
+            "description": "bitcoin menu"
+        }
+    },
+    "language-set": "§l§b Đã chọn %1 là ngôn ngữ",
+    "request-cancelled": "§l§aYêu cầu của bạn đã bị hủy",
+    "player-not-connected": "§a§lNgười chơi tên §e%1 hiện không có trực tuyến.",
+    "player-never-connected": "§l§aNgười chơi tên §e%1 không tìm thấy trong server.",
+    "topBitcoin-tag": "§l§6❖§a TOP Bitcoin §bTrang §e%1§f/§c%2§d ❄",
+    "topBitcoin-format": "§l§b[§l§e%1§ ]§a %2§c ↣§e %3§d Bitcoin",
+    "pay-failed": "§l§aBạn không có đủ Bitcoin để chuyển",
+    "pay-success": "§l§aBạn đã chuyển %1 Bitcoin cho %2",
+    "Bitcoin-paid": "§l§aNgười chơi %1 đã gửi %2 Bitcoin cho bạn.",
+    "takeBitcoin-must-be-number": "§l§aSố lượng phải là số",
+    "takeBitcoin-invalid-number": "§l§aSố không hợp lệ",
+    "takeBitcoin-player-lack-of-Bitcoin": "§l§e%1§a không đủ §e%MONETARY_UNIT%%2 %1§a Bitcoin:§e %MONETARY_UNIT%%3",
+    "takeBitcoin-Bitcoin-taken": "§l§aCoin của bạn đã bị tịch thu: %1 Bitcoin",
+    "takeBitcoin-took-Bitcoin": "§l§aĐã tịch thu %2 Bitcoin của người chơi %1",
+    "takeBitcoin-failed": "§l§aBạn không thể lấy Bitcoin từ người này",
+    "giveBitcoin-must-be-number": "§l§aSố Bitcoin phải là số",
+    "giveBitcoin-invalid-number": "§l§aSai số",
+    "giveBitcoin-Bitcoin-given": "§l§aBạn đã nhận được: %1 §eCoin",
+    "giveBitcoin-gave-Bitcoin": "§l§aĐã tặng %1 Bitcoin cho người chơi %2",
+    "seeBitcoin-seeBitcoin": "§l§aNgười chơi %1 hiện đang có: %2 §eCoin",
+    "setBitcoin-setBitcoin": "§l§aNgười chơi %1's đã được chỉnh Bitcoin thành %2 §eCoin",
+    "setBitcoin-set": "§l§aCoin của bạn đã được đặt lại thành: %1 §eCoin",
+    "setBitcoin-failed": "§l§aKhông thể đặt Bitcoin do lỗi không xác định",
+    "setBitcoin-invalid-number": "§l§a %MONETARY_UNIT%%1 §cPhải là một số",
+    "myBitcoin-myBitcoin": "§l§aCoin của bạn: %1 Bitcoin",
+    "mystatus-show": "§l§aTrạng thái Bitcoin của bạn: %1%"
+}

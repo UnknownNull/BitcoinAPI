@@ -1,0 +1,26 @@
+# monetary-unit: Set what monetary unit you want to use
+monetary-unit: "Ruby"
+# add-op-at-rank: Set whether to show OPs at top point rank
+add-op-at-rank: false
+# default-point: Set default point when player joined the server first
+default-Bitcoin: 0
+# max-point: Set max point that player can have
+max-Bitcoin: 1000000
+# Whether to allow player to pay when taret player is offline
+allow-pay-offline: true
+
+# default-lang: Set default language
+default-lang: eng
+# auto-save-interval: Set interval of auto-save
+auto-save-interval: 10
+
+# provider: Set provider of database (Available: yaml, mysql)
+provider: yaml
+
+# provider-settings: Data which will be given to database provider
+provider-settings:
+  host: 127.0.0.1
+  port: 3306
+  user: UnknownNull
+  password: BitcoinAPI
+  db: BitcoinAPI
